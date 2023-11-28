@@ -1,0 +1,128 @@
+
+  
+
+.navbar {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 15px 0; 
+  z-index: 1000;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navlists {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.navlists li {
+  margin-right: 20px;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s; 
+}
+
+.navlists li:hover {
+  background-color: white;
+  color: black; 
+}
+
+.navlists li:last-child {
+  margin-right: 0;
+}
+
+
+section {
+  text-align: center;
+padding-top: 80px;
+padding-bottom: 80px;
+
+}
+.hometexts {
+  text-align: center;
+  color: #fff;
+}
+.hometexts h1 {
+ font-size:  40px;
+font-style: oblique;
+}
+.hometexts p {
+  font-family: 'Nunito Sans', sans-serif;
+}
+.hometexts button {
+
+display: none
+}
+.homesection {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.servicecontents {
+  text-align: center;
+  margin: 0 auto;
+  max-width: 600px; 
+}
+
+.row {
+  display: flex;
+  gap: 10px;
+  margin-top: 30px;
+}
+
+@media screen and (max-width: 720px) {
+  .row {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.servicelists {
+  background-color:  grey;
+  color: white;
+  padding:  10px;
+}
+.aboutcontents {
+ text-align: center;
+  margin: 0 auto;
+  max-width: 600px;
+
+
+}
+.imagesrow img{
+width:200px;
+}
+#Aboutsection {
+
+background-color: rgb(106, 96, 169);
+color: white;
+}
+#servicesection {
+
+background-color: whitesmoke;
+
+
+
+}
+.info {
+
+
+margin-right: 200px;
+
+}
+.info li {
+  list-style: none;
+}
