@@ -133,6 +133,12 @@ background-color:#EDEDED;
 margin-right: 600px;
 
 }
+
+@media screen and (max-width: 720px) {
+  .info {
+margin-right: 0px;
+  }
+}
 .info li {
   list-style: none;
 }
