@@ -1,19 +1,26 @@
-
-  
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+}
 
 .navbar {
   position: fixed;
   width: 100%;
   top: 0;
   background-color: rgba(0, 0, 0, 0.7);
-  padding: 15px 0; 
+
   z-index: 1000;
 }
+
 
 .container {
   display: flex;
   justify-content: center;
   align-items: center;
+  max-width: 1200px;
+  margin: 0 auto; /* Center the container */
+  padding: 20px; 
 }
 
 .navlists {
@@ -45,22 +52,25 @@ section {
 padding-top: 80px;
 padding-bottom: 80px;
 
+
+}
+section h1 {
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 24px;
+}
+section p {
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
 }
 .hometexts {
   text-align: center;
   color: #fff;
 }
-.hometexts h1 {
- font-size:  40px;
-font-style: oblique;
-}
-.hometexts p {
-  font-family: 'Nunito Sans', sans-serif;
-}
-.hometexts button {
 
-display: none
-}
 .homesection {
   background-size: cover;
   background-position: center;
@@ -107,12 +117,12 @@ width:200px;
 }
 #Aboutsection {
 
-background-color: rgb(106, 96, 169);
+background-color: #212C37;
 color: white;
 }
 #servicesection {
 
-background-color: whitesmoke;
+background-color:#EDEDED;
 
 
 
@@ -120,9 +130,45 @@ background-color: whitesmoke;
 .info {
 
 
-margin-right: 200px;
+margin-right: 600px;
 
 }
 .info li {
   list-style: none;
 }
+
+a {
+
+  color: white;
+}
+li {
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+
+}
+.navlists button {
+  border: none;
+  outline: none;
+
+  background: none;
+  color: white;
+
+}
+.navlists button:hover {
+color: black;
+}
+.homesection button {
+ 
+    background-color: rgba(255, 255, 255, 0.5); /* White background with 50% opacity */
+    color: #ffffff; /* White text color */
+    border: 1px solid #ffffff; /* White border */
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+        }

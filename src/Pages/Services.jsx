@@ -7,7 +7,7 @@ const Services = () => {
 
 <div className="servicecontents">
 
-<h3>Our Services</h3>
+<h1>Our Services</h1>
 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dignissimos numquam veniam accusamus magni error, natus itaque repellat molestiae odit? Reiciendis, doloribus excepturi vitae, necessitatibus eveniet dicta cumque a modi tenetur eos blanditiis consequuntur repudiandae dolore iure voluptatem provident sequi numquam! Impedit beatae voluptates esse, suscipit iste nihil? Eos, dolores ratione?</p>
 <div className="row">
 

@@ -6,7 +6,7 @@ const Contact = () => {
     backgroundSize: 'cover',
     backgroundPosition: 'center',
     backgroundRepeat: 'no-repeat',
-    height: '80vh',
+    height: '100vh',
   };
 
   const textStyle = {
@@ -57,8 +57,11 @@ const Contact = () => {
 
           <button type="submit">Submit</button>
         </form>
-        
-        <div style={{ width: '100%', margin: '20px auto' }}>
+   
+      </section>
+    <map name="">
+           
+    <div style={{ width: '100%', margin: '20px auto' }}>
           <iframe
             title="Dummy Map"
             width="100%"
@@ -69,7 +72,7 @@ const Contact = () => {
             allowFullScreen
           ></iframe>
         </div>
-      </section>
+    </map>
  
     </>
   );

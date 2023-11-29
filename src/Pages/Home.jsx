@@ -22,8 +22,9 @@ const Home = () => {
 <div className="hometexts" style={textStyle}>
     <h1>Lawyer</h1>
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur nam error laborum id similique? Eaque dolor ab alias sunt repellendus veritatis <br /> placeat repellat, enim nemo ex rerum possimus, in voluptas.</p>
-    <button>Our Services</button>
+
 </div>
+<button>Services</button>
       </section>
 </>
   )
