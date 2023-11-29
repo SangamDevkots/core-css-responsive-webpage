@@ -104,6 +104,7 @@ section p {
   background-color:  grey;
   color: white;
   padding:  10px;
+  text-align: left;
 }
 .aboutcontents {
  text-align: center;
