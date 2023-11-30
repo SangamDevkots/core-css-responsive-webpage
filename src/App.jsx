@@ -5,7 +5,7 @@ import Navbar from './Components/Navbar';
 import Services from './Pages/Services';
 import About from './Pages/About';
 import Contact from './Pages/Contact';
-
+import Footer from './Components/Footer';
 
 import Home from './Pages/Home';
 function App() {
@@ -16,7 +16,7 @@ function App() {
 
   const scrollToSection = (ref) => {
     ref.current.scrollIntoView({ behavior: 'smooth' });
-  };
+  }; 
 
   return (
     <>
@@ -38,7 +38,7 @@ function App() {
       <div ref={contactRef}>
         <Contact />
       </div>
-    
+    <Footer />
     </>
   );
 }
